@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Winner Venera — Кейсы</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <div class="nav">
+      <a class="brand" href="index.html" aria-label="На главную">
+        <div class="brand__mark"><img class="brand__logo" src="assets/img/logo.svg" alt="Winner Venera"></div>
+        <div class="brand__name">Winner Venera</div>
+      </a>
+
+      <nav class="menu" aria-label="Основная навигация">
+        <a class="" href="index.html">Главная</a>
+<a class="" href="catalog.html">Каталог</a>
+<a class="is-active" href="cases.html">Кейсы</a>
+<a class="" href="price.html">Прайс</a>
+<a class="" href="contacts.html">Контакты</a>
+      </nav>
+
+      <div class="nav__cta">
+        <a class="btn btn--ghost btn--small" href="catalog.html">Каталог</a>
+        <a class="btn btn--navy btn--small" href="price.html">Скачать каталог</a>
+
+        <button class="burger" data-burger aria-label="Меню" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-panel" data-mobile>
+      <a class="" href="index.html">Главная</a>
+<a class="" href="catalog.html">Каталог</a>
+<a class="is-active" href="cases.html">Кейсы</a>
+<a class="" href="price.html">Прайс</a>
+<a class="" href="contacts.html">Контакты</a>
+      <div class="mt-12" style="display:flex; gap:10px; flex-wrap:wrap; padding:0 10px;">
+        <a class="btn btn--ghost btn--small" href="catalog.html">Каталог</a>
+        <a class="btn btn--navy btn--small" href="price.html">Скачать каталог</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="section" id="top">
+  <div class="container">
+    <h1 class="section__title">Кейсы</h1>
+    <p class="section__subtitle">Пока 3 кейса-заглушки. Потом заменим на реальные материалы.</p>
+
+    <div class="grid mt-24">
+      <article class="card">
+        <div class="card__media"></div>
+        <div class="card__body">
+          <h3 class="card__title">Показ в отеле Hilton</h3>
+          <p class="card__meta">Короткое описание — заглушка.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media"></div>
+        <div class="card__body">
+          <h3 class="card__title">Консультации в ТЦ</h3>
+          <p class="card__meta">Короткое описание — заглушка.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media"></div>
+        <div class="card__body">
+          <h3 class="card__title">Большое гадание для бренда</h3>
+          <p class="card__meta">Короткое описание — заглушка.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="center mt-24">
+      <a class="btn btn--navy" href="price.html">Заказать расчёт</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="split">
+      <div class="photo" style="background-image:url('assets/img/about-photo.jpg'); background-size:cover; background-position:center;"></div>
+
+      <div class="panel">
+        <div class="kicker">Winner Venera</div>
+        <h3 class="h2"><em>Давайте</em> знакомиться!</h3>
+        <div class="hr"></div>
+        <p class="lead">
+          Расскажите про мероприятие, на которое ищете эзотерические практики.
+          Мы бесплатно подготовим предложение с 15+ вариантами за 1 час.
+        </p>
+
+        <div class="panel__actions">
+          <a class="btn btn--navy" href="contacts.html">Написать в WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div>© <span id="y"></span> Winner Venera</div>
+      <div style="display:flex; gap:16px; flex-wrap:wrap;">
+        <a href="price.html">Заказать расчёт</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'}); return false;">Наверх</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>

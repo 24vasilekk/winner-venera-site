@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Winner Venera — Прайс / Расчёт</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <div class="nav">
+      <a class="brand" href="index.html" aria-label="На главную">
+        <div class="brand__mark"><img class="brand__logo" src="assets/img/logo.svg" alt="Winner Venera"></div>
+        <div class="brand__name">Winner Venera</div>
+      </a>
+
+      <nav class="menu" aria-label="Основная навигация">
+        <a class="" href="index.html">Главная</a>
+<a class="" href="catalog.html">Каталог</a>
+<a class="" href="cases.html">Кейсы</a>
+<a class="is-active" href="price.html">Прайс</a>
+<a class="" href="contacts.html">Контакты</a>
+      </nav>
+
+      <div class="nav__cta">
+        <a class="btn btn--ghost btn--small" href="catalog.html">Каталог</a>
+        <a class="btn btn--navy btn--small" href="price.html">Скачать каталог</a>
+
+        <button class="burger" data-burger aria-label="Меню" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-panel" data-mobile>
+      <a class="" href="index.html">Главная</a>
+<a class="" href="catalog.html">Каталог</a>
+<a class="" href="cases.html">Кейсы</a>
+<a class="is-active" href="price.html">Прайс</a>
+<a class="" href="contacts.html">Контакты</a>
+      <div class="mt-12" style="display:flex; gap:10px; flex-wrap:wrap; padding:0 10px;">
+        <a class="btn btn--ghost btn--small" href="catalog.html">Каталог</a>
+        <a class="btn btn--navy btn--small" href="price.html">Скачать каталог</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="section" id="top">
+  <div class="container">
+    <div class="form" style="--form-bg: url('assets/img/form-bg.jpg');">
+      <div class="form__bg"></div>
+      <div class="form__inner">
+        <h1 class="form__title">Получите <em>бесплатный</em> расчёт<br/>для вашего мероприятия</h1>
+        <p class="form__sub">для получения незабываемых эмоций</p>
+
+        <form class="form__row" data-demo-form>
+          <input class="input" name="name" placeholder="Иван Смирнов" required />
+          <input class="input" name="phone" placeholder="+7 000 000-00-00" required />
+          <button class="btn btn--navy" type="submit">Оставить заявку</button>
+        </form>
+
+        <div class="notice">Можем сделать отправку в Telegram/почту/CRM + маску телефона.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="split">
+      <div class="photo" style="background-image:url('assets/img/about-photo.jpg'); background-size:cover; background-position:center;"></div>
+
+      <div class="panel">
+        <div class="kicker">Как это работает</div>
+        <h3 class="h2">Быстро и <em>понятно</em></h3>
+        <div class="hr"></div>
+        <p class="lead">
+          1) Вы оставляете заявку.<br/>
+          2) Мы уточняем формат мероприятия и ваши пожелания.<br/>
+          3) Готовим предложение с вариантами практик/образов и сметой.
+        </p>
+
+        <div class="panel__actions">
+          <a class="btn btn--navy" href="catalog.html">Посмотреть каталог</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div>© <span id="y"></span> Winner Venera</div>
+      <div style="display:flex; gap:16px; flex-wrap:wrap;">
+        <a href="price.html">Заказать расчёт</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'}); return false;">Наверх</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>

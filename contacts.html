@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Winner Venera — Контакты</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <div class="nav">
+      <a class="brand" href="index.html" aria-label="На главную">
+        <div class="brand__mark"><img class="brand__logo" src="assets/img/logo.svg" alt="Winner Venera"></div>
+        <div class="brand__name">Winner Venera</div>
+      </a>
+
+      <nav class="menu" aria-label="Основная навигация">
+        <a class="" href="index.html">Главная</a>
+<a class="" href="catalog.html">Каталог</a>
+<a class="" href="cases.html">Кейсы</a>
+<a class="" href="price.html">Прайс</a>
+<a class="is-active" href="contacts.html">Контакты</a>
+      </nav>
+
+      <div class="nav__cta">
+        <a class="btn btn--ghost btn--small" href="catalog.html">Каталог</a>
+        <a class="btn btn--navy btn--small" href="price.html">Скачать каталог</a>
+
+        <button class="burger" data-burger aria-label="Меню" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-panel" data-mobile>
+      <a class="" href="index.html">Главная</a>
+<a class="" href="catalog.html">Каталог</a>
+<a class="" href="cases.html">Кейсы</a>
+<a class="" href="price.html">Прайс</a>
+<a class="is-active" href="contacts.html">Контакты</a>
+      <div class="mt-12" style="display:flex; gap:10px; flex-wrap:wrap; padding:0 10px;">
+        <a class="btn btn--ghost btn--small" href="catalog.html">Каталог</a>
+        <a class="btn btn--navy btn--small" href="price.html">Скачать каталог</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="section" id="top">
+  <div class="container">
+    <h1 class="section__title">Контакты</h1>
+    <p class="section__subtitle">Здесь можно поставить WhatsApp/Telegram, почту и форму. Пока заглушка.</p>
+
+    <div class="grid mt-24">
+      <div class="card" style="grid-column: span 6;">
+        <div class="card__body">
+          <h3 class="card__title">Связаться</h3>
+          <p class="card__meta">
+            WhatsApp: <strong>+7 (000) 000-00-00</strong><br/>
+            Telegram: <strong>@winner_venera</strong><br/>
+            Email: <strong>hello@winner-venera.ru</strong>
+          </p>
+          <div class="mt-12">
+            <a class="btn btn--navy" href="price.html">Заказать расчёт</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="grid-column: span 6;">
+        <div class="card__media" style="height: 220px; border-bottom:1px solid var(--line);"></div>
+        <div class="card__body">
+          <h3 class="card__title">Карта</h3>
+          <p class="card__meta">Заменим на Яндекс/Google карту, когда дашь адрес/город.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="form" style="--form-bg: url('assets/img/form-bg.jpg');">
+      <div class="form__bg"></div>
+      <div class="form__inner">
+        <h2 class="form__title">Напишите нам — <em>и мы ответим</em></h2>
+        <p class="form__sub">Можно сделать форму обратной связи или отправку в Telegram.</p>
+
+        <form class="form__row" data-demo-form style="grid-template-columns: 1fr 1fr 260px;">
+          <input class="input" name="name" placeholder="Имя" required />
+          <input class="input" name="contact" placeholder="Телефон или Telegram" required />
+          <button class="btn btn--navy" type="submit">Отправить</button>
+        </form>
+
+        <div class="notice">Пока форма демонстрационная.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div>© <span id="y"></span> Winner Venera</div>
+      <div style="display:flex; gap:16px; flex-wrap:wrap;">
+        <a href="price.html">Заказать расчёт</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'}); return false;">Наверх</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>
