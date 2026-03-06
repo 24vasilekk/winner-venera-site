@@ -386,7 +386,7 @@
       <div class="chat-panel__body">
         <a class="chat-link" href="contacts.html">Контакты <span>→</span></a>
         <a class="chat-link" href="price.html">Заказать расчёт <span>→</span></a>
-        <div class="chat-hint">Когда дашь реальные ссылки на WhatsApp / Telegram — поставим их сюда.</div>
+        <div class="chat-hint">Выберите удобный способ связи, и мы ответим в ближайшее время.</div>
       </div>
     </div>
     <div class="chat-bubble" data-chat-bubble role="button" aria-label="Открыть чат">

@@ -821,9 +821,10 @@ body.is-modal-open{
 }
 @media (max-width: 860px){
   .section{padding:70px 0}
-  .nav{grid-template-columns:auto auto; min-height:76px;}
+  .nav{grid-template-columns:auto 1fr auto; min-height:76px;}
   .menu{display:none}
   .nav__cta .btn--ghost{display:none}
+  .nav__cta{justify-self:end; margin-left:auto}
   .burger{display:block}
   .mobile-panel{display:block}
   .brand__name{display:none}
