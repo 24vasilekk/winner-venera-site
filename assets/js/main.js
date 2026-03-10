@@ -208,7 +208,7 @@
         panel: 'fabrics',
         title: 'Бархат зелёный',
         description: 'Плотная эффектная ткань с благородной фактурой для красивого оформления пространства. Хорошо сочетается с мистической, природной и винтажной эстетикой.',
-        image: 'assets/img/catalog/fabric-vevet-green.png'
+        image: 'assets/img/catalog/fabric-velvet-green.png'
       },
       {
         panel: 'fabrics',
